@@ -14,6 +14,7 @@ public class AskChampionRestController {
     @RestController
     @RequestMapping("/champions")
     public record ListChampionsRestController(AskChampionUseCase useCase) {
+        @CrossOrigin
         @PostMapping("/{id}/ask")
         public AskChampionResponse askChampion(@PathVariable Long id,@RequestBody AskChampionRequest request){
             String answer = useCase.askChampion(id, request.question());

@@ -16,7 +16,7 @@ public class ChampionsJdbcRepository implements ChampionsRepository {
     //dependency injection
     public ChampionsJdbcRepository(JdbcTemplate jdbcTemplate){
         this.jdbcTemplate = jdbcTemplate;
-        this.rowMapper = ((rs,rowNum)->new Champions(rs.getLong("id"),rs.getString("name"),rs.getString("role"),rs.getString("lore"),rs.getString("name")));
+        this.rowMapper = ((rs,rowNum)->new Champions(rs.getLong("id"),rs.getString("name"),rs.getString("role"),rs.getString("lore"),rs.getString("image_Url")));
     }
 
     @Override

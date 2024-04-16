@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
 
 public record ListChampionsUseCase (ChampionsRepository repository){
-    @CrossOrigin
     public List<Champions> findAll(){
         return repository.findAll();
     }
