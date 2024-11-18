@@ -129,6 +129,8 @@ POST /champions/ask/{id} - Ask a question to a specific champion by ID and retri
   `/swagger-ui/index.html`
 
 - For API documentation in JSON format suitable for tools like Postman, Insomnia, and other API clients, go to: `/v3/api-docs`.
+
+  # Screenshots
 ![image](https://github.com/EduardoNunexx/SantanderDevWeekBackEndJava/assets/105079070/4ff6594c-ea01-4825-b4e2-bbae8580f9be)
 ![image](https://github.com/EduardoNunexx/SantanderDevWeekBackEndJava/assets/105079070/77612d76-23b0-4af3-951f-16b5f27476f2)
 ![image](https://github.com/EduardoNunexx/SantanderDevWeekBackEndJava/assets/105079070/228c2de0-5d10-4e56-a685-af847385b8d1)
